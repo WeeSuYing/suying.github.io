@@ -1,0 +1,174 @@
+24/01/16 20:31:23.159 nioEventLoopGroup-2-2 INFO HiveConf: Found configuration file file:/C:/Users/wsuyi/AppData/Local/spark/spark-3.4.0-bin-hadoop3/conf/hive-site.xml
+24/01/16 20:31:23.261 nioEventLoopGroup-2-2 INFO SparkContext: Running Spark version 3.4.0
+24/01/16 20:31:23.273 nioEventLoopGroup-2-2 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/01/16 20:31:23.316 nioEventLoopGroup-2-2 WARN SparkConf: Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).
+24/01/16 20:31:23.333 nioEventLoopGroup-2-2 INFO ResourceUtils: ==============================================================
+24/01/16 20:31:23.333 nioEventLoopGroup-2-2 INFO ResourceUtils: No custom resources configured for spark.driver.
+24/01/16 20:31:23.335 nioEventLoopGroup-2-2 INFO ResourceUtils: ==============================================================
+24/01/16 20:31:23.335 nioEventLoopGroup-2-2 INFO SparkContext: Submitted application: sparklyr
+24/01/16 20:31:23.349 nioEventLoopGroup-2-2 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+24/01/16 20:31:23.355 nioEventLoopGroup-2-2 INFO ResourceProfile: Limiting resource is cpu
+24/01/16 20:31:23.355 nioEventLoopGroup-2-2 INFO ResourceProfileManager: Added ResourceProfile id: 0
+24/01/16 20:31:23.386 nioEventLoopGroup-2-2 INFO SecurityManager: Changing view acls to: wsuyi
+24/01/16 20:31:23.386 nioEventLoopGroup-2-2 INFO SecurityManager: Changing modify acls to: wsuyi
+24/01/16 20:31:23.386 nioEventLoopGroup-2-2 INFO SecurityManager: Changing view acls groups to: 
+24/01/16 20:31:23.387 nioEventLoopGroup-2-2 INFO SecurityManager: Changing modify acls groups to: 
+24/01/16 20:31:23.387 nioEventLoopGroup-2-2 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: wsuyi; groups with view permissions: EMPTY; users with modify permissions: wsuyi; groups with modify permissions: EMPTY
+24/01/16 20:31:23.456 nioEventLoopGroup-2-2 INFO Utils: Successfully started service 'sparkDriver' on port 62851.
+24/01/16 20:31:23.470 nioEventLoopGroup-2-2 INFO SparkEnv: Registering MapOutputTracker
+24/01/16 20:31:23.490 nioEventLoopGroup-2-2 INFO SparkEnv: Registering BlockManagerMaster
+24/01/16 20:31:23.504 nioEventLoopGroup-2-2 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+24/01/16 20:31:23.504 nioEventLoopGroup-2-2 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+24/01/16 20:31:23.506 nioEventLoopGroup-2-2 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+24/01/16 20:31:23.518 nioEventLoopGroup-2-2 INFO DiskBlockManager: Created local directory at C:\Users\wsuyi\AppData\Local\spark\spark-3.4.0-bin-hadoop3\tmp\local\blockmgr-2f303795-6cb4-4c96-b1da-886086c8dd29
+24/01/16 20:31:23.532 nioEventLoopGroup-2-2 INFO MemoryStore: MemoryStore started with capacity 1048.8 MiB
+24/01/16 20:31:23.544 nioEventLoopGroup-2-2 INFO SparkEnv: Registering OutputCommitCoordinator
+24/01/16 20:31:23.546 nioEventLoopGroup-2-2 WARN Utils: The configured local directories are not expected to be URIs; however, got suspicious values [C:/Users/wsuyi/AppData/Local/spark/spark-3.4.0-bin-hadoop3/tmp/local]. Please check your configured local directories.
+24/01/16 20:31:23.617 nioEventLoopGroup-2-2 INFO JettyUtils: Start Jetty 127.0.0.1:4040 for SparkUI
+24/01/16 20:31:23.672 nioEventLoopGroup-2-2 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+24/01/16 20:31:23.696 nioEventLoopGroup-2-2 INFO SparkContext: Added JAR file:/C:/Users/wsuyi/AppData/Local/R/win-library/4.3/sparklyr/java/sparklyr-master-2.12.jar at spark://127.0.0.1:62851/jars/sparklyr-master-2.12.jar with timestamp 1705408283257
+24/01/16 20:31:23.739 nioEventLoopGroup-2-2 INFO Executor: Starting executor ID driver on host 127.0.0.1
+24/01/16 20:31:23.743 nioEventLoopGroup-2-2 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+24/01/16 20:31:23.749 nioEventLoopGroup-2-2 INFO Executor: Fetching spark://127.0.0.1:62851/jars/sparklyr-master-2.12.jar with timestamp 1705408283257
+24/01/16 20:31:23.769 nioEventLoopGroup-2-2 INFO TransportClientFactory: Successfully created connection to /127.0.0.1:62851 after 7 ms (0 ms spent in bootstraps)
+24/01/16 20:31:23.772 nioEventLoopGroup-2-2 INFO Utils: Fetching spark://127.0.0.1:62851/jars/sparklyr-master-2.12.jar to C:\Users\wsuyi\AppData\Local\spark\spark-3.4.0-bin-hadoop3\tmp\local\spark-88323b58-5854-4710-8a24-7a7cd07f375b\userFiles-f8844c69-dc2f-4c4a-8cc1-e32e54bdf47b\fetchFileTemp10529262563371927890.tmp
+24/01/16 20:31:23.822 nioEventLoopGroup-2-2 INFO Executor: Adding file:/C:/Users/wsuyi/AppData/Local/spark/spark-3.4.0-bin-hadoop3/tmp/local/spark-88323b58-5854-4710-8a24-7a7cd07f375b/userFiles-f8844c69-dc2f-4c4a-8cc1-e32e54bdf47b/sparklyr-master-2.12.jar to class loader
+24/01/16 20:31:23.838 nioEventLoopGroup-2-2 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 62853.
+24/01/16 20:31:23.838 nioEventLoopGroup-2-2 INFO NettyBlockTransferService: Server created on 127.0.0.1:62853
+24/01/16 20:31:23.840 nioEventLoopGroup-2-2 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+24/01/16 20:31:23.845 nioEventLoopGroup-2-2 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 127.0.0.1, 62853, None)
+24/01/16 20:31:23.847 dispatcher-BlockManagerMaster INFO BlockManagerMasterEndpoint: Registering block manager 127.0.0.1:62853 with 1048.8 MiB RAM, BlockManagerId(driver, 127.0.0.1, 62853, None)
+24/01/16 20:31:23.849 nioEventLoopGroup-2-2 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 127.0.0.1, 62853, None)
+24/01/16 20:31:23.850 nioEventLoopGroup-2-2 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 127.0.0.1, 62853, None)
+24/01/16 20:31:24.014 nioEventLoopGroup-2-2 INFO SharedState: Setting hive.metastore.warehouse.dir ('C:/Users/wsuyi/AppData/Local/spark/spark-3.4.0-bin-hadoop3/tmp/hive') to the value of spark.sql.warehouse.dir.
+24/01/16 20:31:24.018 nioEventLoopGroup-2-2 INFO SharedState: Warehouse path is 'file:/C:/Users/wsuyi/AppData/Local/spark/spark-3.4.0-bin-hadoop3/tmp/hive'.
+24/01/16 20:31:26.048 shutdown-hook-0 INFO SparkContext: Invoking stop() from shutdown hook
+24/01/16 20:31:26.048 shutdown-hook-0 INFO SparkContext: SparkContext is stopping with exitCode 0.
+24/01/16 20:32:04.154 nioEventLoopGroup-2-2 INFO HiveConf: Found configuration file file:/C:/Users/wsuyi/AppData/Local/spark/spark-3.4.0-bin-hadoop3/conf/hive-site.xml
+24/01/16 20:32:04.263 nioEventLoopGroup-2-2 INFO SparkContext: Running Spark version 3.4.0
+24/01/16 20:32:04.275 nioEventLoopGroup-2-2 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/01/16 20:32:04.319 nioEventLoopGroup-2-2 WARN SparkConf: Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).
+24/01/16 20:32:04.337 nioEventLoopGroup-2-2 INFO ResourceUtils: ==============================================================
+24/01/16 20:32:04.337 nioEventLoopGroup-2-2 INFO ResourceUtils: No custom resources configured for spark.driver.
+24/01/16 20:32:04.337 nioEventLoopGroup-2-2 INFO ResourceUtils: ==============================================================
+24/01/16 20:32:04.338 nioEventLoopGroup-2-2 INFO SparkContext: Submitted application: sparklyr
+24/01/16 20:32:04.351 nioEventLoopGroup-2-2 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+24/01/16 20:32:04.357 nioEventLoopGroup-2-2 INFO ResourceProfile: Limiting resource is cpu
+24/01/16 20:32:04.357 nioEventLoopGroup-2-2 INFO ResourceProfileManager: Added ResourceProfile id: 0
+24/01/16 20:32:04.386 nioEventLoopGroup-2-2 INFO SecurityManager: Changing view acls to: wsuyi
+24/01/16 20:32:04.386 nioEventLoopGroup-2-2 INFO SecurityManager: Changing modify acls to: wsuyi
+24/01/16 20:32:04.386 nioEventLoopGroup-2-2 INFO SecurityManager: Changing view acls groups to: 
+24/01/16 20:32:04.386 nioEventLoopGroup-2-2 INFO SecurityManager: Changing modify acls groups to: 
+24/01/16 20:32:04.386 nioEventLoopGroup-2-2 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: wsuyi; groups with view permissions: EMPTY; users with modify permissions: wsuyi; groups with modify permissions: EMPTY
+24/01/16 20:32:04.451 nioEventLoopGroup-2-2 INFO Utils: Successfully started service 'sparkDriver' on port 62931.
+24/01/16 20:32:04.463 nioEventLoopGroup-2-2 INFO SparkEnv: Registering MapOutputTracker
+24/01/16 20:32:04.482 nioEventLoopGroup-2-2 INFO SparkEnv: Registering BlockManagerMaster
+24/01/16 20:32:04.494 nioEventLoopGroup-2-2 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+24/01/16 20:32:04.494 nioEventLoopGroup-2-2 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+24/01/16 20:32:04.496 nioEventLoopGroup-2-2 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+24/01/16 20:32:04.509 nioEventLoopGroup-2-2 INFO DiskBlockManager: Created local directory at C:\Users\wsuyi\AppData\Local\spark\spark-3.4.0-bin-hadoop3\tmp\local\blockmgr-2e7f2bd4-36b1-4f94-8754-21ca4ec091e0
+24/01/16 20:32:04.518 nioEventLoopGroup-2-2 INFO MemoryStore: MemoryStore started with capacity 1048.8 MiB
+24/01/16 20:32:04.528 nioEventLoopGroup-2-2 INFO SparkEnv: Registering OutputCommitCoordinator
+24/01/16 20:32:04.529 nioEventLoopGroup-2-2 WARN Utils: The configured local directories are not expected to be URIs; however, got suspicious values [C:/Users/wsuyi/AppData/Local/spark/spark-3.4.0-bin-hadoop3/tmp/local]. Please check your configured local directories.
+24/01/16 20:32:04.600 nioEventLoopGroup-2-2 INFO JettyUtils: Start Jetty 127.0.0.1:4040 for SparkUI
+24/01/16 20:32:04.643 nioEventLoopGroup-2-2 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+24/01/16 20:32:04.664 nioEventLoopGroup-2-2 INFO SparkContext: Added JAR file:/C:/Users/wsuyi/AppData/Local/R/win-library/4.3/sparklyr/java/sparklyr-master-2.12.jar at spark://127.0.0.1:62931/jars/sparklyr-master-2.12.jar with timestamp 1705408324260
+24/01/16 20:32:04.699 nioEventLoopGroup-2-2 INFO Executor: Starting executor ID driver on host 127.0.0.1
+24/01/16 20:32:04.702 nioEventLoopGroup-2-2 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+24/01/16 20:32:04.707 nioEventLoopGroup-2-2 INFO Executor: Fetching spark://127.0.0.1:62931/jars/sparklyr-master-2.12.jar with timestamp 1705408324260
+24/01/16 20:32:04.725 nioEventLoopGroup-2-2 INFO TransportClientFactory: Successfully created connection to /127.0.0.1:62931 after 6 ms (0 ms spent in bootstraps)
+24/01/16 20:32:04.727 nioEventLoopGroup-2-2 INFO Utils: Fetching spark://127.0.0.1:62931/jars/sparklyr-master-2.12.jar to C:\Users\wsuyi\AppData\Local\spark\spark-3.4.0-bin-hadoop3\tmp\local\spark-30c03ae5-114e-4b3d-a472-2e0283a54330\userFiles-94377362-de68-4ad5-ab75-f9f67ecf8c42\fetchFileTemp6565807417045794065.tmp
+24/01/16 20:32:04.769 nioEventLoopGroup-2-2 INFO Executor: Adding file:/C:/Users/wsuyi/AppData/Local/spark/spark-3.4.0-bin-hadoop3/tmp/local/spark-30c03ae5-114e-4b3d-a472-2e0283a54330/userFiles-94377362-de68-4ad5-ab75-f9f67ecf8c42/sparklyr-master-2.12.jar to class loader
+24/01/16 20:32:04.781 nioEventLoopGroup-2-2 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 62934.
+24/01/16 20:32:04.782 nioEventLoopGroup-2-2 INFO NettyBlockTransferService: Server created on 127.0.0.1:62934
+24/01/16 20:32:04.783 nioEventLoopGroup-2-2 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+24/01/16 20:32:04.786 nioEventLoopGroup-2-2 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 127.0.0.1, 62934, None)
+24/01/16 20:32:04.789 dispatcher-BlockManagerMaster INFO BlockManagerMasterEndpoint: Registering block manager 127.0.0.1:62934 with 1048.8 MiB RAM, BlockManagerId(driver, 127.0.0.1, 62934, None)
+24/01/16 20:32:04.790 nioEventLoopGroup-2-2 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 127.0.0.1, 62934, None)
+24/01/16 20:32:04.791 nioEventLoopGroup-2-2 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 127.0.0.1, 62934, None)
+24/01/16 20:32:04.920 nioEventLoopGroup-2-2 INFO SharedState: Setting hive.metastore.warehouse.dir ('C:/Users/wsuyi/AppData/Local/spark/spark-3.4.0-bin-hadoop3/tmp/hive') to the value of spark.sql.warehouse.dir.
+24/01/16 20:32:04.923 nioEventLoopGroup-2-2 INFO SharedState: Warehouse path is 'file:/C:/Users/wsuyi/AppData/Local/spark/spark-3.4.0-bin-hadoop3/tmp/hive'.
+24/01/16 20:32:06.885 shutdown-hook-0 INFO SparkContext: Invoking stop() from shutdown hook
+24/01/16 20:32:06.886 shutdown-hook-0 INFO SparkContext: SparkContext is stopping with exitCode 0.
+24/01/16 20:32:59.501 nioEventLoopGroup-2-2 INFO HiveConf: Found configuration file file:/C:/Users/wsuyi/AppData/Local/spark/spark-3.4.0-bin-hadoop3/conf/hive-site.xml
+24/01/16 20:32:59.594 nioEventLoopGroup-2-2 INFO SparkContext: Running Spark version 3.4.0
+24/01/16 20:32:59.607 nioEventLoopGroup-2-2 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/01/16 20:32:59.649 nioEventLoopGroup-2-2 WARN SparkConf: Note that spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone/kubernetes and LOCAL_DIRS in YARN).
+24/01/16 20:32:59.666 nioEventLoopGroup-2-2 INFO ResourceUtils: ==============================================================
+24/01/16 20:32:59.666 nioEventLoopGroup-2-2 INFO ResourceUtils: No custom resources configured for spark.driver.
+24/01/16 20:32:59.666 nioEventLoopGroup-2-2 INFO ResourceUtils: ==============================================================
+24/01/16 20:32:59.667 nioEventLoopGroup-2-2 INFO SparkContext: Submitted application: sparklyr
+24/01/16 20:32:59.680 nioEventLoopGroup-2-2 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+24/01/16 20:32:59.685 nioEventLoopGroup-2-2 INFO ResourceProfile: Limiting resource is cpu
+24/01/16 20:32:59.687 nioEventLoopGroup-2-2 INFO ResourceProfileManager: Added ResourceProfile id: 0
+24/01/16 20:32:59.717 nioEventLoopGroup-2-2 INFO SecurityManager: Changing view acls to: wsuyi
+24/01/16 20:32:59.717 nioEventLoopGroup-2-2 INFO SecurityManager: Changing modify acls to: wsuyi
+24/01/16 20:32:59.717 nioEventLoopGroup-2-2 INFO SecurityManager: Changing view acls groups to: 
+24/01/16 20:32:59.717 nioEventLoopGroup-2-2 INFO SecurityManager: Changing modify acls groups to: 
+24/01/16 20:32:59.718 nioEventLoopGroup-2-2 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: wsuyi; groups with view permissions: EMPTY; users with modify permissions: wsuyi; groups with modify permissions: EMPTY
+24/01/16 20:32:59.786 nioEventLoopGroup-2-2 INFO Utils: Successfully started service 'sparkDriver' on port 62978.
+24/01/16 20:32:59.802 nioEventLoopGroup-2-2 INFO SparkEnv: Registering MapOutputTracker
+24/01/16 20:32:59.820 nioEventLoopGroup-2-2 INFO SparkEnv: Registering BlockManagerMaster
+24/01/16 20:32:59.831 nioEventLoopGroup-2-2 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+24/01/16 20:32:59.832 nioEventLoopGroup-2-2 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+24/01/16 20:32:59.833 nioEventLoopGroup-2-2 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+24/01/16 20:32:59.844 nioEventLoopGroup-2-2 INFO DiskBlockManager: Created local directory at C:\Users\wsuyi\AppData\Local\spark\spark-3.4.0-bin-hadoop3\tmp\local\blockmgr-70d6b3b1-0469-4d43-b302-8fa3c1925735
+24/01/16 20:32:59.855 nioEventLoopGroup-2-2 INFO MemoryStore: MemoryStore started with capacity 1048.8 MiB
+24/01/16 20:32:59.864 nioEventLoopGroup-2-2 INFO SparkEnv: Registering OutputCommitCoordinator
+24/01/16 20:32:59.867 nioEventLoopGroup-2-2 WARN Utils: The configured local directories are not expected to be URIs; however, got suspicious values [C:/Users/wsuyi/AppData/Local/spark/spark-3.4.0-bin-hadoop3/tmp/local]. Please check your configured local directories.
+24/01/16 20:32:59.930 nioEventLoopGroup-2-2 INFO JettyUtils: Start Jetty 127.0.0.1:4040 for SparkUI
+24/01/16 20:32:59.967 nioEventLoopGroup-2-2 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+24/01/16 20:32:59.985 nioEventLoopGroup-2-2 INFO SparkContext: Added JAR file:/C:/Users/wsuyi/AppData/Local/R/win-library/4.3/sparklyr/java/sparklyr-master-2.12.jar at spark://127.0.0.1:62978/jars/sparklyr-master-2.12.jar with timestamp 1705408379591
+24/01/16 20:33:00.028 nioEventLoopGroup-2-2 INFO Executor: Starting executor ID driver on host 127.0.0.1
+24/01/16 20:33:00.031 nioEventLoopGroup-2-2 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+24/01/16 20:33:00.036 nioEventLoopGroup-2-2 INFO Executor: Fetching spark://127.0.0.1:62978/jars/sparklyr-master-2.12.jar with timestamp 1705408379591
+24/01/16 20:33:00.054 nioEventLoopGroup-2-2 INFO TransportClientFactory: Successfully created connection to /127.0.0.1:62978 after 7 ms (0 ms spent in bootstraps)
+24/01/16 20:33:00.056 nioEventLoopGroup-2-2 INFO Utils: Fetching spark://127.0.0.1:62978/jars/sparklyr-master-2.12.jar to C:\Users\wsuyi\AppData\Local\spark\spark-3.4.0-bin-hadoop3\tmp\local\spark-0186f0aa-e851-47b2-bd3a-6db280f480e8\userFiles-ff7dd67c-501c-407f-ada9-751859340153\fetchFileTemp7919099697168497537.tmp
+24/01/16 20:33:00.100 nioEventLoopGroup-2-2 INFO Executor: Adding file:/C:/Users/wsuyi/AppData/Local/spark/spark-3.4.0-bin-hadoop3/tmp/local/spark-0186f0aa-e851-47b2-bd3a-6db280f480e8/userFiles-ff7dd67c-501c-407f-ada9-751859340153/sparklyr-master-2.12.jar to class loader
+24/01/16 20:33:00.113 nioEventLoopGroup-2-2 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 62981.
+24/01/16 20:33:00.113 nioEventLoopGroup-2-2 INFO NettyBlockTransferService: Server created on 127.0.0.1:62981
+24/01/16 20:33:00.114 nioEventLoopGroup-2-2 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+24/01/16 20:33:00.118 nioEventLoopGroup-2-2 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 127.0.0.1, 62981, None)
+24/01/16 20:33:00.120 dispatcher-BlockManagerMaster INFO BlockManagerMasterEndpoint: Registering block manager 127.0.0.1:62981 with 1048.8 MiB RAM, BlockManagerId(driver, 127.0.0.1, 62981, None)
+24/01/16 20:33:00.121 nioEventLoopGroup-2-2 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 127.0.0.1, 62981, None)
+24/01/16 20:33:00.121 nioEventLoopGroup-2-2 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 127.0.0.1, 62981, None)
+24/01/16 20:33:00.260 nioEventLoopGroup-2-2 INFO SharedState: Setting hive.metastore.warehouse.dir ('C:/Users/wsuyi/AppData/Local/spark/spark-3.4.0-bin-hadoop3/tmp/hive') to the value of spark.sql.warehouse.dir.
+24/01/16 20:33:00.264 nioEventLoopGroup-2-2 INFO SharedState: Warehouse path is 'file:/C:/Users/wsuyi/AppData/Local/spark/spark-3.4.0-bin-hadoop3/tmp/hive'.
+24/01/16 20:33:02.884 nioEventLoopGroup-2-2 INFO HiveUtils: Initializing HiveMetastoreConnection version 2.3.9 using Spark classes.
+24/01/16 20:33:02.987 nioEventLoopGroup-2-2 INFO HiveClientImpl: Warehouse location for Hive client (version 2.3.9) is file:/C:/Users/wsuyi/AppData/Local/spark/spark-3.4.0-bin-hadoop3/tmp/hive
+24/01/16 20:33:03.053 nioEventLoopGroup-2-2 WARN HiveConf: HiveConf of name hive.stats.jdbc.timeout does not exist
+24/01/16 20:33:03.053 nioEventLoopGroup-2-2 WARN HiveConf: HiveConf of name hive.stats.retries.wait does not exist
+24/01/16 20:33:03.053 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: Opening raw store with implementation class:org.apache.hadoop.hive.metastore.ObjectStore
+24/01/16 20:33:03.083 nioEventLoopGroup-2-2 INFO ObjectStore: ObjectStore, initialize called
+24/01/16 20:33:03.159 nioEventLoopGroup-2-2 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+24/01/16 20:33:03.159 nioEventLoopGroup-2-2 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+24/01/16 20:33:03.698 nioEventLoopGroup-2-2 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+24/01/16 20:33:04.392 nioEventLoopGroup-2-2 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+24/01/16 20:33:04.394 nioEventLoopGroup-2-2 INFO ObjectStore: Initialized ObjectStore
+24/01/16 20:33:04.430 nioEventLoopGroup-2-2 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 2.3.0
+24/01/16 20:33:04.430 nioEventLoopGroup-2-2 WARN ObjectStore: setMetaStoreSchemaVersion called but recording version is disabled: version = 2.3.0, comment = Set by MetaStore UNKNOWN@192.168.51.55
+24/01/16 20:33:04.443 nioEventLoopGroup-2-2 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+24/01/16 20:33:04.512 nioEventLoopGroup-2-2 INFO HiveMetaStore: Added admin role in metastore
+24/01/16 20:33:04.513 nioEventLoopGroup-2-2 INFO HiveMetaStore: Added public role in metastore
+24/01/16 20:33:04.532 nioEventLoopGroup-2-2 INFO HiveMetaStore: No user is added in admin role, since config is empty
+24/01/16 20:33:04.575 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_database: default
+24/01/16 20:33:04.576 nioEventLoopGroup-2-2 INFO audit: ugi=wsuyi	ip=unknown-ip-addr	cmd=get_database: default	
+24/01/16 20:33:04.584 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_database: global_temp
+24/01/16 20:33:04.586 nioEventLoopGroup-2-2 INFO audit: ugi=wsuyi	ip=unknown-ip-addr	cmd=get_database: global_temp	
+24/01/16 20:33:04.586 nioEventLoopGroup-2-2 WARN ObjectStore: Failed to get database global_temp, returning NoSuchObjectException
+24/01/16 20:33:04.586 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_database: default
+24/01/16 20:33:04.586 nioEventLoopGroup-2-2 INFO audit: ugi=wsuyi	ip=unknown-ip-addr	cmd=get_database: default	
+24/01/16 20:33:04.588 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_database: default
+24/01/16 20:33:04.588 nioEventLoopGroup-2-2 INFO audit: ugi=wsuyi	ip=unknown-ip-addr	cmd=get_database: default	
+24/01/16 20:33:04.589 nioEventLoopGroup-2-2 INFO HiveMetaStore: 0: get_tables: db=default pat=*
+24/01/16 20:33:04.589 nioEventLoopGroup-2-2 INFO audit: ugi=wsuyi	ip=unknown-ip-addr	cmd=get_tables: db=default pat=*	
+24/01/16 20:33:04.967 nioEventLoopGroup-2-2 INFO CodeGenerator: Code generated in 90.0129 ms
+24/01/16 20:33:04.975 nioEventLoopGroup-2-2 INFO CodeGenerator: Code generated in 4.2022 ms
+24/01/16 20:33:05.059 nioEventLoopGroup-2-2 INFO SparkContext: Starting job: collect at arrowconverters.scala:271
+24/01/16 20:33:05.061 nioEventLoopGroup-2-2 INFO DAGScheduler: Job 0 finished: collect at arrowconverters.scala:271, took 0.002251 s
+24/01/16 20:33:05.067 nioEventLoopGroup-2-2 INFO BaseAllocator: Debug mode disabled.
+24/01/16 20:33:05.068 nioEventLoopGroup-2-2 INFO DefaultAllocationManagerOption: allocation manager type not specified, using netty as the default type
+24/01/16 20:33:05.070 nioEventLoopGroup-2-2 INFO CheckAllocator: Using DefaultAllocationManager at memory-netty-11.0.0.jar!/org/apache/arrow/memory/DefaultAllocationManagerFactory.class
+24/01/16 20:33:06.268 shutdown-hook-0 INFO SparkContext: Invoking stop() from shutdown hook
+24/01/16 20:33:06.268 shutdown-hook-0 INFO SparkContext: SparkContext is stopping with exitCode 0.
+24/01/16 20:33:06.276 shutdown-hook-0 INFO SparkUI: Stopped Spark web UI at http://127.0.0.1:4040
